@@ -32,7 +32,7 @@ CREATE (adam) -[:pracuje_w] ->(gdynia),
 MATCH (n) RETURN n
 ![1](img/scr3.jpg)
 
-```
+
 MATCH (wolontariusz:wolontariusz)
 RETURN wolontariusz
 ![2](img/scr2.jpg)
@@ -42,7 +42,7 @@ MATCH (wolontariusz:wolontariusz)
 RETURN wolontariusz.imie, wolontariusz.stanowisko
 ![3](img/scr1.jpg)
 
-```
+
 MATCH (wolontariusz:wolontariusz)
 WHERE wolontariusz.imie =~'A.*'
 RETURN wolontariusz.imie
