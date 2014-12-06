@@ -26,7 +26,7 @@ CREATE (adam) -[:pracuje_w] ->(gdynia),
 (zosia) -[:pracuje_w] ->(sopot),
 (mariusz) -[:pracuje_w] ->(gdynia)
 
-
+```
 ###Wyswietlenie grafu
 
 MATCH (n) RETURN n
@@ -34,7 +34,7 @@ MATCH (n) RETURN n
 
 ![1](img/scr3.jpg)
 
-
+```
 MATCH (wolontariusz:wolontariusz)
 RETURN wolontariusz
 
