@@ -39,14 +39,14 @@ MATCH (wolontariusz:wolontariusz)
 RETURN wolontariusz
 
 ```
-![1](img/scr2.jpg)
+![2](img/scr2.jpg)
 
 
 MATCH (wolontariusz:wolontariusz)
 RETURN wolontariusz.imie, wolontariusz.stanowisko
 
 ```
-![1](img/scr1.jpg)
+![3](img/scr1.jpg)
 
 
 MATCH (wolontariusz:wolontariusz)
@@ -54,7 +54,7 @@ WHERE wolontariusz.imie =~'A.*'
 RETURN wolontariusz.imie
 
 ```
-![1](img/scr4.jpg)
+![4](img/scr4.jpg)
 
 
 MATCH (wolontariusz:wolontariusz)-[:pracuje_w]->(miasto)
@@ -62,7 +62,7 @@ WHERE miasto.miasto = "Sopot"
 RETURN miasto, wolontariusz
 
 ```
-![1](img/scr5.jpg)
+![5](img/scr5.jpg)
 
 
 
